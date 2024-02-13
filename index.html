@@ -13,10 +13,10 @@
                 <h1>PASSWORD GENERATOR ZLKCYBER</h1>
                 <label for="passwordLenght" class="text-uppercase fw-bold">Password Lenght</label>
                 <input class="form-control form-control-lg" id="passwordLenght" type="number"/>
-                <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2">Generate Password</button>
+                <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2" onclick="getPassword()">Generate Password</button>
                 <label for="password" class="text-uppercase fw-bold">Password</label>
-                <input class="form-control form-control-lg " id="password" type="password"/>
-                <button class="btn btn-primary text-uppercase fw-bold btn-lg mt-2">Save Password</button>
+                <input class="form-control form-control-lg " id="password" type="text"/>
+                <button class="btn btn-primary text-uppercase fw-bold btn-lg mt-2" onclick="savePassword()" id="saveButton">Save Password</button>
                 
             </div>
 
