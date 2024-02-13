@@ -8,10 +8,17 @@
 </head>
 <body>
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <div class="d-flex flex-column bg-">
-            <h1>PASSWORD GENERATOR ZLKCYBER</h1>
-            <label>Password Lenght</label>
-            <input class="form-control " id="password"/>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-column gap-2 mt-2">
+                <h1>PASSWORD GENERATOR ZLKCYBER</h1>
+                <label for="passwordLenght" class="text-uppercase fw-bold">Password Lenght</label>
+                <input class="form-control form-control-lg" id="passwordLenght" type="number"/>
+                <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2">Generate Password</button>
+                <label for="password" class="text-uppercase fw-bold">Password</label>
+                <input class="form-control form-control-lg " id="password" type="password"/>
+                <button class="btn btn-primary text-uppercase fw-bold btn-lg mt-2">Save Password</button>
+                
+            </div>
 
         </div>
     </div>
